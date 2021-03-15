@@ -9,6 +9,7 @@ import Avatar from "@material-ui/core/Avatar";
 import IconButton from "@material-ui/core/IconButton";
 import Popover from "@material-ui/core/Popover";
 import MenuItem from "@material-ui/core/MenuItem";
+import profilePic from "../../assets/profilePic.png";
 
 const classes = (theme) => ({
   searchContainer: {
@@ -90,7 +91,7 @@ class Header extends Component {
               <Avatar
                 alt="Profile Picture"
                 variant="circular"
-                src="profile_pic_dummy.jpg"
+                src={profilePic}
                 className={classes.avatar}
               />
             </IconButton>
